@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from heroku import NAME,IMAGE, SHORT_BIO, ABOUT, GITHUB, FACEBOOK, INSTAGRAM
+from config import NAME,IMAGE, SHORT_BIO, ABOUT, GITHUB, FACEBOOK, INSTAGRAM
 
 app = Flask(__name__)
 
